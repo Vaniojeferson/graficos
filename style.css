@@ -1,0 +1,49 @@
+@charset "UTF-8";
+body{
+
+    
+    text-align: center;
+    
+}
+
+#general{
+     margin: 0px 80px 80px 80px;
+     padding: 0px 15px 15px 15px;
+    
+     background-color: aquamarine;
+     text-align: center;
+
+    
+    
+   
+}
+
+
+p{
+    text-align: justify ;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+#viewv{
+    top: 10px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+    z-index: 1050;
+}
+
+
+.fechar{
+    background-color: rgba(246, 0, 0, 0.881);
+    color: white;
+    border: 1px solid black;
+    width: 60px;
+    padding: 0px 5px 0px 5px;
+    font-size: 11px;
+}
