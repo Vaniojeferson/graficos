@@ -1,6 +1,8 @@
 var res = document.getElementById("view")
 
 
+
+
     
     
     /*setInterval(()=>{
@@ -17,21 +19,23 @@ var res = document.getElementById("view")
 
 
 function logistica(){
- 
+  
 
  res.innerHTML = `<iframe title="BI - LOGÍSTICA" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZDQ4MjYyZjUtOTUyYi00YzI0LWE3OTctOWI4YmZmNjZlYzU0IiwidCI6ImRkNjg1YzRlLTY2NjQtNDllMy05YTA4LTRkYWFmZTU1Zjk1NSJ9&pageName=ReportSection933ad2573e5e00c3ebd6" frameborder="0" allowFullScreen="true"></iframe>
  
  <button onclick="apagar()" class="fechar">X Fechar</button>`
+
+ 
  
 }
 
 function enel(){
- 
+   
 
     res.innerHTML = `<iframe title="Enel" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiYzM2NmM4MTMtNDdjYy00Yzc5LThlZTYtOWFhZGU1ZGIzZjE1IiwidCI6ImRkNjg1YzRlLTY2NjQtNDllMy05YTA4LTRkYWFmZTU1Zjk1NSJ9&pageName=ReportSection09f8c436fa96045848fe" frameborder="0" allowFullScreen="true"></iframe>
     
     <button onclick="apagar()" class="fechar">X Fechar</button>`
-   
+  
 }
 
 
