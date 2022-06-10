@@ -4,23 +4,30 @@ body,p{
    /*height: 100vh;*/
     text-align: center;
     
-
     
     
 }
 
 #general{
-    position: absolute;
+    position: absolute ;
     padding: 0px 15px 15px 15px;
     text-align: center;
     background-color: aqua;
-    margin-left: 18%;
-    margin-right: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
     min-width: 300px;
-    max-width: 900px;
+    max-width: 100%;
+    z-index: 0;
      
 }
 
+.button{
+
+    width: 110px;
+    height: 18px;
+    font-size: 12px;
+    box-shadow:6px 2px 6px rgb(174, 172, 172);
+}
 
 p{
     text-align: justify ;
@@ -32,7 +39,7 @@ p{
 
 
 #view {
-    position: relative;
+    position: fixed;
     background-color: #fff;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
@@ -42,6 +49,8 @@ p{
     outline: 0;
     -webkit-box-shadow: 0 3px 9px rgb(0 0 0 / 50%);
     box-shadow: 0 3px 9px rgb(0 0 0 / 50%);*/
+    margin: 2% 25% 0% 25%;
+    z-index: 1;
     
     
     
