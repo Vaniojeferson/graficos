@@ -5,6 +5,7 @@ body{
 
    /*height: 100vh;
    background-image:url(imagens/modelo-de-design-de-graficos-de-marketing-azul_52683-24522.webp);background-repeat: no-repeat;*/
+   min-width: 100px;
     
     
 }
@@ -12,23 +13,28 @@ body{
 #contener-header{
     position: fixed;
     width: 100%;
-    width: 100%;
     margin-top: -10px;
     margin-left: -10px;
+    text-align: left;
     background-color: rgb(4, 4, 4);
     box-shadow:10px 2px 10px rgb(138, 136, 136);
     color: white;
-    min-width: 700px;
+    min-width: 500px;
     flex-wrap: nowrap;
     z-index: 0;
    
    
 }
 
+
+
+
+
 #contener-1{
  display:inline-block;
  width: 25%;
- height: 100px;
+ height: 145px;
+ 
  
 
 }
@@ -37,11 +43,17 @@ body{
 
 #contener-2{
     position: absolute;
-    margin-top: 0%;
+    margin-top: 1%;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    padding-top: 15px;
+    
     text-align: center ;
     display:inline-block;
-    width: 75%;
-    height: 100px;
+    max-width: 950px;
+    min-width: 350px;
+    height: 110px;
+   /* background-color: blue;*/
     
 }
 
@@ -53,7 +65,7 @@ body{
     border-radius: 5px;
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 40px;
+    margin-top: 85px;
     min-width: 300px;
     max-width: 100%;
     z-index: 1;

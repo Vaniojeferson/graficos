@@ -10,7 +10,7 @@ var res = document.getElementById("view")
        }, 10000)*/
    
       
-       function Site(){
+       /*function Site(){
   
 
         res.innerHTML = https://app.powerbi.com/view?r=eyJrIjoiNGJjNjIxMzItNjExNS00Y2U4LTk3ODMtZDg4YjIwMzhmMWNlIiwidCI6ImRkNjg1YzRlLTY2NjQtNDllMy05YTA4LTRkYWFmZTU1Zjk1NSJ9&pageName=ReportSection2661b40172365886e27e<br>
@@ -19,7 +19,7 @@ var res = document.getElementById("view")
        
         
         
-    }
+    }*/
 
 
 
